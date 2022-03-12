@@ -1,3 +1,3 @@
-Virtus Games Web Page
+Virtus Games Web Page 💻
 
-  <virtusgames.github.io/#/>
+  virtusgames.github.io/#/
