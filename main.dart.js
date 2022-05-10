@@ -55207,7 +55207,7 @@ return A.Wp(A.a5r(A.i3(A.a([A.hy(A.zJ(A.ji(10),B.kQ),350,m),B.J_,B.dA,A.p2("    
 if(a===1)return A.Wp(A.i3(A.a([B.CQ,B.IX,B.dA,A.p2("        We are a team that develop hyper casual games with Unity. We create this team in a game jam.You can access our games from Games page and Google Play.",m,B.bk,m),B.ql,B.IY,B.dA],s)),B.am)
 else{r=A.kh("play.google.com","store/apps/details",A.aP(["id","com.VertusGames.IceSkating"],t.N,t.z),l)
 q=t.s
-p=A.a(["iceskating128.jpeg"],q)
+p=A.a(["iceskating225.jpeg"],q)
 o=A.kh(m,m,m,m)
 q=A.a([],q)
 return A.Wp(A.i3(A.a([n.DS(new A.B0("Ice Skating Pro",r,p)),n.DS(new A.B0("Cities Zombies",o,q))],s)),B.am)}}},
