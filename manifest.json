@@ -1,6 +1,6 @@
 {
-    "name": "virtus_games_flutter_web_app",
-    "short_name": "virtus_games_flutter_web_app",
+    "name": "virtus_web_application",
+    "short_name": "virtus_web_application",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
