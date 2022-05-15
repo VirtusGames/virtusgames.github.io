@@ -56517,12 +56517,12 @@ r=t.E
 return A.a71(A.Xb(A.Av(A.a([new A.nq(p),B.qI,A.e9(A.kY(A.dW(50),B.lb),250,250),B.D7,A.Av(B.zL,B.at),B.qJ,A.Xb(A.lW(A.a([q.ke("Yusuf Selman Demirel","Game Designer","https://avatars.githubusercontent.com/u/85555399?v=4",A.a([A.mI(n,"/yusufselmandemirel",p,o)],s)),q.ke("Mehmet Ercan",m,"https://avatars.githubusercontent.com/u/75614388?v=4",A.a([A.mI(n,"/mehmetercanoffical",p,o)],s)),q.ke("Sergen Tekdemir","3D Designer","",A.a([A.mI(l,"/in/sergentekdemir",p,o)],s)),q.ke("\u0130slam Yelegen",k,"",A.a([A.mI(l,"/in/islam-yelegen-23b800221",p,o)],s)),q.ke("Yal\xe7\u0131n",k,"",A.a([],s)),q.ke("Hasan Basri Ayhaner",m,"https://avatars.githubusercontent.com/u/55455410?v=4",A.a([A.mI(n,"/HBA114",p,o),A.mI(l,"/in/hasan-basri-ayhaner-9b2452228",p,o)],s))],r),B.at,B.aF),B.a6)],r),B.at),B.am),B.jZ,!1)},
 ke(a,b,c,d){var s=null,r=A.b(this.d,"isMobile")?1:5,q=A.dW(30)
 return A.e9(A.a9X(new A.FT(B.Kr,200,r,A.a([new A.cn(B.xY,A.e9(A.kY(q,c===""?A.BP("assets/virtus.jpeg"):new A.ln(A.abF(s,s,new A.ok(c,1,s)),s)),100,100),s),A.Fn(a,s,s,s),A.Fn(b,s,s,s),this.WC(d)],t.E),s),s),210,200)},
-WC(a){var s,r=null,q=a.length
-if(q===0)return A.ii(r,r,B.o,r,r,r,r,r,r,r,r,r,r)
-if(q===1){q=a[0]
-if(B.e.v(q.giu(q),"github"))s="github.jpg"
-else{q=a[0]
-s=B.e.v(q.giu(q),"linkedin")?"linkedin.jpg":"assets/virtus.jpeg"}return A.vS(A.e9(A.kY(A.dW(50),A.BP(s)),30,30),new A.a19(a))}return A.lW(A.a([A.vS(A.e9(A.kY(A.dW(50),A.BP("assets/github.jpg")),30,30),new A.a1a(a)),A.vS(A.e9(A.kY(A.dW(50),A.BP("assets/linkedin.jpg")),30,30),new A.a1b(a))],t.E),B.eU,B.aF)}}
+WC(a){var s,r=null,q="assets/virtus.jpeg",p=a.length
+if(p===0)return A.ii(r,r,B.o,r,r,r,r,r,r,r,r,r,r)
+if(p===1){p=a[0]
+if(B.e.v(p.giu(p),"github"))s="github.jpg"
+else{p=a[0]
+s=B.e.v(p.giu(p),"linkedin")?"linkedin.jpg":q}return A.vS(A.e9(A.kY(A.dW(50),A.BP(s)),30,30),new A.a19(a))}return A.lW(A.a([A.vS(A.e9(A.kY(A.dW(50),A.BP(q)),30,30),new A.a1a(a)),A.vS(A.e9(A.kY(A.dW(50),A.BP(q)),30,30),new A.a1b(a))],t.E),B.eU,B.aF)}}
 A.a19.prototype={
 $0(){var s=0,r=A.a2(t.H),q=this
 var $async$$0=A.a3(function(a,b){if(a===1)return A.a_(b,r)
