@@ -3,10 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  ".git/COMMIT_EDITMSG": "819b4007dbc39153110944e4eb988892",
+  ".git/COMMIT_EDITMSG": "53704e228bf5f567540b6575fb19415b",
 ".git/config": "c8a8a597b6cccbdf9e3d0aff2655dcc1",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
-".git/FETCH_HEAD": "d06b60bd45cadcd674b3b1535777c135",
+".git/FETCH_HEAD": "0dee70471d96171d4e18a4322d9cc9e4",
 ".git/HEAD": "cf7dd3ce51958c5f13fece957cc417fb",
 ".git/hooks/applypatch-msg.sample": "ce562e08d8098926a3862fc6e7905199",
 ".git/hooks/commit-msg.sample": "579a3c1e12a1e74a98169175fb913012",
@@ -21,12 +21,14 @@ const RESOURCES = {
 ".git/hooks/prepare-commit-msg.sample": "2b5c047bdb474555e1787db32b2d2fc5",
 ".git/hooks/push-to-checkout.sample": "c7ab00c7784efeadad3ae9b228d4b4db",
 ".git/hooks/update.sample": "647ae13c682f7827c22f5fc08a03674e",
-".git/index": "ea7e016762e46d5202ddb561626c3083",
+".git/index": "75c17291dff57b42a0cdd7a78dc504cb",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
-".git/logs/HEAD": "ad77a5e9abceb412ff35e587a9b2200d",
-".git/logs/refs/heads/main": "ad77a5e9abceb412ff35e587a9b2200d",
+".git/logs/HEAD": "23bb7e546173b4bad1a644de956bc89e",
+".git/logs/refs/heads/main": "23bb7e546173b4bad1a644de956bc89e",
 ".git/logs/refs/remotes/origin/HEAD": "f58126a6f55f7e9d8286b878fab8b33b",
-".git/logs/refs/remotes/origin/main": "25c652b6dae0a73c08161867b81609d2",
+".git/logs/refs/remotes/origin/main": "49792e58b9b527abf955caadbfb97149",
+".git/objects/0e/2ce2d4295bde157162376f9850db54a97fee0a": "6c5ece11199c5379cb5305fcaec59b73",
+".git/objects/15/d1ceaf2c66e53b6b2fc856554cfc34933e0ebd": "62f27bc659450ca6381e6d5119bbcbe4",
 ".git/objects/40/ec39cc103361b7fbd351a0d8030466d7d576b6": "fe693d3b74697070ff08be861ce6e6c3",
 ".git/objects/4c/25ab100473b82d6915edcea2280c0a166086f9": "b95df0ce3a48d18cde9d90cfa27af4f7",
 ".git/objects/58/79cf83ead60d55ae96ea4f62bbe0994f9e5c3e": "6b6b86eb502da63848606ed8d9fa4635",
@@ -35,14 +37,17 @@ const RESOURCES = {
 ".git/objects/9f/d2f577fe93e1330f5556c53bbfb3933c602412": "6d26f819e9e3242005cff47a17d45746",
 ".git/objects/a0/08f870d07158abbc45c41b8a0bd2ad53ab2905": "ce451eaa1ad27007cec989c58986cf3b",
 ".git/objects/d0/cfebba3992cf4ab5e601faa63a54997f932686": "fcaa9219ca95d888bcbe897829eef35e",
+".git/objects/e5/37d0124d6282e660af6b98338372b07c513359": "9f65796554c61141ac8f428e28a474e2",
+".git/objects/ec/39a467d41007d6d6f457ca74f7658bfc45ca83": "034cc29cbeec9e9ad34d0d219b9ddc04",
 ".git/objects/f0/8893430b40f4a5a8b7175118370275cc8a2ff8": "88e91b9a6b08cc58b8870446440d1d24",
+".git/objects/f8/f62edb10ebde973cb236e5f30638f5bbda3b19": "1d36347ac57d8d87ddadfeff4aa3dd9a",
 ".git/objects/pack/pack-98b97ffa9cfd559d707d037d41c961373096ab60.idx": "1fdaf8ba4f2f97f0668c7ad878f2ace7",
 ".git/objects/pack/pack-98b97ffa9cfd559d707d037d41c961373096ab60.pack": "c28fdf4dbe21d2190c2b4ff1d1956891",
 ".git/ORIG_HEAD": "0ca848805f3a93128c9a50b452f3d33a",
 ".git/packed-refs": "d954eed22765750bd7dba766f6ffef3a",
-".git/refs/heads/main": "c16604bcd966a0c1282320a32753e736",
+".git/refs/heads/main": "ab17f425da0ee801c6185784fb7b72bd",
 ".git/refs/remotes/origin/HEAD": "98b16e0b650190870f1b40bc8f4aec4e",
-".git/refs/remotes/origin/main": "c16604bcd966a0c1282320a32753e736",
+".git/refs/remotes/origin/main": "ab17f425da0ee801c6185784fb7b72bd",
 "assets/AssetManifest.json": "83759d85af09b85672541c565a7aee18",
 "assets/assets/github.jpg": "bd673b21870d3073f644ca1206aec912",
 "assets/assets/ice_skating.jpeg": "7253d2e828010b1fde4059c521715d48",
@@ -50,21 +55,22 @@ const RESOURCES = {
 "assets/assets/virtus.jpeg": "5bd77f6884825219416181fcdaf3cc01",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "a038ab78d924e062e8949b3abb10c4f8",
+"assets/NOTICES": "613add4bc75842ca39e31b57d1d06540",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"assets/shaders/ink_sparkle.frag": "c329b25ddb8f8f7e816895422ba2873b",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "b1aa9ed541a8a3a5cb0f0bb3738cf62d",
-"/": "b1aa9ed541a8a3a5cb0f0bb3738cf62d",
-"main.dart.js": "600e284147922674c6b404df88f3e1c9",
+"index.html": "da142f7fe01cbb49f4f584d0413f54aa",
+"/": "da142f7fe01cbb49f4f584d0413f54aa",
+"main.dart.js": "56f361b4d534407636b66f77c441d64a",
 "manifest.json": "65fcfe9f670316f4fe411b5de025babf",
 "version.json": "8146c365297156816cdba0b755533cc5"
 };
@@ -74,7 +80,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -173,9 +178,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
