@@ -58374,7 +58374,7 @@ r=J.nM(0,t.cl)
 q=t.qo
 r.push(p.kq("Yusuf Selman Demirel","Game Designer","https://avatars.githubusercontent.com/u/85555399?v=4",A.a([A.mD(m,"/yusufselmandemirel",o,n),A.fP("https://www.linkedin.com/in/yusuf-selman/",0,o)],q)))
 r.push(p.kq("Mehmet Ali Ercan",l,"https://avatars.githubusercontent.com/u/75614388?v=4",A.a([A.mD(m,"/mehmetercanoffical",o,n),A.fP("https://www.linkedin.com/in/mehmet-ali-ercan-a0b779196/",0,o)],q)))
-r.push(p.kq("\u0130slam Yelegen",k,"",A.a([A.mD(j,"/in/islam-yelegen-23b800221",o,n),A.fP("https://github.com/yelegenislam",0,o)],q)))
+r.push(p.kq("\u0130slam Yelegen",k,"",A.a([A.fP("https://github.com/yelegenislam",0,o),A.mD(j,"/in/islam-yelegen-23b800221",o,n)],q)))
 r.push(p.kq("Yi\u011fit Yal\xe7\u0131n",k,"",A.a([A.fP("https://github.com/yigityalcin3838",0,o)],q)))
 r.push(p.kq("Furkan Be\xe7et",l,"https://avatars.githubusercontent.com/u/49875242?v=4",A.a([A.fP("https://github.com/furkanbct",0,o)],q)))
 r.push(p.kq("Hasan Basri Ayhaner",l,"https://avatars.githubusercontent.com/u/55455410?v=4",A.a([A.mD(m,"/HBA114",o,n),A.mD(j,"/in/hasan-basri-ayhaner-9b2452228",o,n)],q)))
